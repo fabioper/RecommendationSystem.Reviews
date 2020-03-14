@@ -1,7 +1,7 @@
-package br.edu.infnet.persistence;
+package br.edu.infnet.persistence.reviews;
 
-import br.edu.infnet.domain.entities.Review;
-import br.edu.infnet.domain.interfaces.IReviewsIRepository;
+import br.edu.infnet.domain.reviews.Review;
+import br.edu.infnet.domain.reviews.IReviewsIRepository;
 
 import java.util.Collection;
 import java.util.UUID;

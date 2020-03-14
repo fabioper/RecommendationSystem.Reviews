@@ -1,14 +1,10 @@
-package br.edu.infnet.domain.entities;
+package br.edu.infnet.domain;
 
 import java.util.Objects;
 import java.util.UUID;
 
 public abstract class EntityBase {
     private UUID id;
-
-//    public EntityBase(UUID id) {
-//        this.id = UUID.randomUUID();
-//    }
 
     public UUID getId() {
         return id;
