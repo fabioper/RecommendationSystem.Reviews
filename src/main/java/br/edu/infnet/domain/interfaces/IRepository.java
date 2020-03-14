@@ -10,7 +10,7 @@ public interface IRepository<TEntity extends EntityBase> {
 
     Collection<TEntity> getAll();
 
-    TEntity getById(UUID id);
+    TEntity getBy(UUID id);
 
     TEntity update(TEntity entity);
 

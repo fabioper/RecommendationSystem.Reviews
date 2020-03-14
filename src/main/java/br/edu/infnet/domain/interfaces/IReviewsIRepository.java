@@ -1,5 +1,7 @@
 package br.edu.infnet.domain.interfaces;
 
-public interface IReviewsIRepository extends IRepository {
+import br.edu.infnet.domain.entities.Review;
+
+public interface IReviewsIRepository extends IRepository<Review> {
 
 }
