@@ -3,14 +3,14 @@ package br.edu.infnet.domain;
 import java.util.Collection;
 import java.util.UUID;
 
-public interface IRepository<TEntity> {
-    TEntity add(TEntity entity);
+public interface IRepository<T> {
+    T add(T entity);
 
-    Collection<TEntity> getAll();
+    Collection<T> getAll();
 
-    TEntity getBy(UUID id);
+    T getBy(UUID id);
 
-    TEntity update(TEntity entity);
+    T update(T entity);
 
-    TEntity remove(UUID id);
+    T remove(UUID id);
 }

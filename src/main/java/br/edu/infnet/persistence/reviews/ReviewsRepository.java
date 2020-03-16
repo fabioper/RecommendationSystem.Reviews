@@ -32,4 +32,9 @@ public class ReviewsRepository implements IReviewsIRepository {
     public Review remove(UUID id) {
         return null;
     }
+
+    @Override
+    public Collection<Review> getByType(String subjectType) {
+        return null;
+    }
 }
