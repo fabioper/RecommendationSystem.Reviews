@@ -1,12 +1,12 @@
 package br.edu.infnet.domain;
 
-import java.util.Collection;
+import java.util.List;
 import java.util.UUID;
 
 public interface IRepository<T> {
     T add(T entity);
 
-    Collection<T> getAll();
+    List<T> getAll();
 
     T getBy(UUID id);
 

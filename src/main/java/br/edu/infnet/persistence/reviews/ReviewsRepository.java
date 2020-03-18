@@ -1,9 +1,9 @@
 package br.edu.infnet.persistence.reviews;
 
-import br.edu.infnet.domain.reviews.Review;
 import br.edu.infnet.domain.reviews.IReviewsIRepository;
+import br.edu.infnet.domain.reviews.Review;
 
-import java.util.Collection;
+import java.util.List;
 import java.util.UUID;
 
 public class ReviewsRepository implements IReviewsIRepository {
@@ -14,7 +14,7 @@ public class ReviewsRepository implements IReviewsIRepository {
     }
 
     @Override
-    public Collection<Review> getAll() {
+    public List<Review> getAll() {
         return null;
     }
 
@@ -34,7 +34,7 @@ public class ReviewsRepository implements IReviewsIRepository {
     }
 
     @Override
-    public Collection<Review> getByType(String subjectType) {
+    public List<Review> getByType(String subjectType) {
         return null;
     }
 }
