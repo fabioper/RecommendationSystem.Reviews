@@ -1,4 +1,4 @@
-package br.edu.infnet.persistence.reviews;
+package br.edu.infnet.infrastruture.reviews;
 
 import br.edu.infnet.domain.reviews.IReviewsIRepository;
 import br.edu.infnet.domain.reviews.Review;

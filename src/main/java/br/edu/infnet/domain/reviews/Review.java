@@ -10,4 +10,5 @@ public class Review extends EntityBase {
     private String content;
     private double rate;
     private String subjectType;
+    private String profileId;
 }
